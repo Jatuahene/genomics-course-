@@ -9,3 +9,5 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 [Lab1](Lab1-JessicaA.html)
+[Lab2](Lab2.html)
+![](images/zoomprofilepic.JPG)
