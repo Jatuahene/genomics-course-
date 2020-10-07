@@ -1,5 +1,5 @@
 ---
-title: "Index"
+title: "Evolutionary & Genomics Lab Reports"
 author: "Jessica Atuahene"
 date: "9/1/2020"
 output: html_document
@@ -8,6 +8,18 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-[Lab1](Lab1-JessicaA.html)
-[Lab2](Lab2.html)
 ![](images/zoomprofilepic.JPG)
+
+* Lab 1: [Introduction to R and Reproducible Research](Lab1-JessicaA.html)
+
+* Lab 2: [Git, GitHub and Rstudio Project](Lab2.html)
+
+* Lab 3A: [Data Wrangling: Starting with Data](Lab3A.html)
+
+* Lab 3B: [Data Wrangling: Manipulating Data](Lab3b.html)
+
+* Lab 4A: [Data Wrangling and Graphing COVID-19 Reporting Data (Part 1)](Lab4A.html)
+
+* Lab 4B: [Lab 4A & Lab 5A Exercises](Lab4b.html)
+
+* Lab 5: [Data Wrangling and Graphing COVID-19 Reporting Data (Part 2)](Lab5.html)
