@@ -3,7 +3,7 @@ title: "Lab5.Rmd"
 author: "Jessica Atuahene"
 date: "9/30/2020"
 output: html_document
-Bibliography: references.bib 
+Bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
