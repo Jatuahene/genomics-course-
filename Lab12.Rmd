@@ -1,0 +1,47 @@
+---
+title: "Lab 12"
+author: "Jessica Atuahene"
+date: "12/11/2020"
+output: html_document
+bibliography: references.bib
+---
+
+# Cytoscape
+
+* Tour of Cytoscape
+
+!["Before"](images/image1.png)
+
+!["After editing style"](images/Image2.png)
+
+# Testing Cytoscape Connection
+```{r}
+if(!"RCy3" %in% installed.packages()){
+     install.packages("BiocManager")
+     BiocManager::install("RCy3")
+}
+library(RCy3)
+```
+
+# My first Network
+```{r}
+nodes <- data.frame(id=c("node 0","node 1","node 2","node 3"),
+           group=c("A","A","B","B"), # optional
+           stringsAsFactors=FALSE)
+edges <- data.frame(source=c("node 0","node 0","node 0","node 2"),
+           target=c("node 1","node 2","node 3","node 3"),
+           interaction=c("inhibits","interacts","activates","interacts"),  # optional
+           weight=c(5,3,5,9), # optional
+           stringsAsFactors=FALSE)
+```
+
+# Basic Data Visalization 
+!["Basic data visualization"](images/image3.png)
+
+##Cytoscape: Differentially Expressed Genes Network Analysis Graph
+
+![Differentially Expressed Genes Network Analysis Graph](images/Image4.png)
+
+Application written in R [@RCoreTeam] using the Shiny framework [@Chang2015].
+# REFERENCES
+
